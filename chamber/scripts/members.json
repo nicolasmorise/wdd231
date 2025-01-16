@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Ace Hardware",
+        "address": "123 Main St, YourCity, YourState",
+        "phone": "123-456-7890",
+        "website": "https://www.acehardware.com",
+        "image": "images/ace-hardware.png",
+        "membership": 1
+    },
+    {
+        "name": "Sunny Cafe",
+        "address": "456 Elm St, YourCity, YourState",
+        "phone": "987-654-3210",
+        "website": "https://www.sunnycafe.com",
+        "image": "images/sunny-cafe.png",
+        "membership": 2
+    },
+    {
+        "name": "Green Landscapes",
+        "address": "789 Oak St, YourCity, YourState",
+        "phone": "456-789-1234",
+        "website": "https://www.greenlandscapes.com",
+        "image": "images/green-landscapes.png",
+        "membership": 3
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "101 Tech Ave, YourCity, YourState",
+        "phone": "321-654-9870",
+        "website": "https://www.techsolutions.com",
+        "image": "images/tech-solutions.png",
+        "membership": 1
+    },
+    {
+        "name": "Fitness World",
+        "address": "202 Gym Dr, YourCity, YourState",
+        "phone": "654-123-7890",
+        "website": "https://www.fitnessworld.com",
+        "image": "images/fitness-world.png",
+        "membership": 2
+    },
+    {
+        "name": "Travel Experts",
+        "address": "303 Travel Ln, YourCity, YourState",
+        "phone": "987-321-6540",
+        "website": "https://www.travelexperts.com",
+        "image": "images/travel-experts.png",
+        "membership": 3
+    },
+    {
+        "name": "Eco Energy",
+        "address": "404 Solar St, YourCity, YourState",
+        "phone": "789-456-1230",
+        "website": "https://www.ecoenergy.com",
+        "image": "images/eco-energy.png",
+        "membership": 1
+    }
+]
