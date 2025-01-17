@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Guia Decor",
+        "address": "Rua dos Timbiras, 2777 - Barro Preto, Belo Horizonte - MG, 30140-062",
+        "phone": "(31)3337-7154",
+        "website": "https://www.acehardware.com",
+        "image": "images/guiadecor_logo.png",
+        "membership": 1
+    },
+    {
+        "name": "Gastro Hub",
+        "address": "Av. do Contorno 4667, Belo Horizonte, Brazil 30220040",
+        "phone": "31 2527-5858",
+        "website": "https://linktr.ee/gastrohubbh?fbclid=PAZXh0bgNhZW0CMTEAAaadwB0AAfjJFPtlqez2LWBpunMconFhlHVbgpaROmDmLLORvSSaT1LMTDU_aem_xtAT-M_wr2n3eiL7ZOx5ng",
+        "image": "images/gastrohub_logo.png",
+        "membership": 2
+    },
+    {
+        "name": "Flor de Sol",
+        "address": "Rua dos Tupis, 281 - Centro, Belo Horizonte - MG, 30190-061",
+        "phone": "031997990396",
+        "website": "https://www.lojaflordesol.com.br/",
+        "image": "images/green-landscapes.png",
+        "membership": 3
+    }
+]

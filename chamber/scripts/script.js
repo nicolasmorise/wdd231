@@ -1,6 +1,6 @@
 async function fetchMembers() {
     try {
-        const response = await fetch('scripts/members.json');
+        const response = await fetch('data/members.json');
         const members = await response.json();
         renderMembers(members);
     } catch (error) {
@@ -23,7 +23,7 @@ function renderMembers(members, viewType = 'grid') {
             <p>${member.address}</p>
             <p>${member.phone}</p>
             <a href="${member.website}" target="_blank">Visit Website</a>
-            <p>Membership Level: ${['Member', 'Silver', 'Gold'][member.membership - 1]}</p>
+            <p>Membership Level: ${['Standart', 'Silver', 'Gold'][member.membership - 1]}</p>
         `;
 
         container.appendChild(memberCard);
