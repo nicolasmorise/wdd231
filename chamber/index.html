@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Directory for Belo Horizonte">
+    <meta name="author" content="Nicolas Eiji Morise">
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/fav.png">
+    <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/index.html">
+    <link rel="icon" href="images/fav.png" type="image/png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Chamber of Commerce Directory</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+           <img src="images/Logo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/hero.png" alt="Chamber of Commerce Hero Image">
+            <div class="cta">
+                <h2>Join the Chamber of Commerce Today!</h2>
+                <a href="join.html" class="button">Join Now</a>
+            </div>
+        </section>
+
+        <section id="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>Event 1: Networking Breakfast - Date</li>
+                <li>Event 2: Business Workshop - Date</li>
+                <li>Event 3: Annual Gala - Date</li>
+            </ul>
+        </section>
+
+        <section id="weather">
+            <h2>Current Weather</h2>
+            <div id="weather-info">
+                <p>Loading weather data...</p>
+            </div>
+        </section>
+
+        <div id="members-container" class="grid-view">
+            <!-- Members will be dynamically added here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Chamber of Commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/weather.js " defer></script>
+</body>
+</html>
