@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Chamber of Commerce Directory for Belo Horizonte">
+    <meta name="author" content="Nicolas Eiji Morise">
+    <meta property="og:title" content="Join the Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/fav.png">
+    <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/join.html">
+    <link rel="icon" href="images/fav.png" type="image/png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <title>Join the Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/Logo.png" alt="Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form action="thankyou.html" method="get">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required autocomplete="given-name" title="Enter your first name">
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required autocomplete="family-name" title="Enter your last name">
+
+                <label for="title">Organizational Title</label>
+                <input type="text" id="title" name="title" autocomplete="organization-title" title="Enter your organizational title">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" title="Enter your email address" placeholder="example@domain.com">
+
+                <label for="phone">Mobile Phone Number</label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel" title="Enter your mobile phone number">
+
+                <label for="organization">Business/Organization Name</label>
+                <input type="text" id="organization" name="organization" required autocomplete="organization" title="Enter your business/organization name">
+
+                <label for="membership">Membership Level</label>
+                <select id="membership" name="membership" required>
+                    <option value="np">NP Membership (Non-Profit)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+
+                <label for="description">Business/Organization Description</label>
+                <textarea id="description" name="description" title="Enter a description of your business/organization"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="membership-cards">
+                <div class="membership-card">
+                    <h3>NP Membership</h3>
+                    <a href="#np-modal" class="open-modal">Learn More</a>
+                </div>
+                <div class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <a href="#bronze-modal" class="open-modal">Learn More</a>
+                </div>
+                <div class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <a href="#silver-modal" class="open-modal">Learn More</a>
+                </div>
+                <div class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <a href="#gold-modal" class="open-modal">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modals -->
+        <div id="np-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>NP Membership Benefits</h2>
+                <ul>
+                    <li>No membership fee</li>
+                    <li>Access to networking events</li>
+                    <li>Listing in the directory</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="bronze-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Bronze Membership Benefits</h2>
+                <ul>
+                    <li>All NP benefits</li>
+                    <li>Discounted event tickets</li>
+                    <li>Monthly training sessions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="silver-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Silver Membership Benefits</h2>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Spotlight advertising on the homepage</li>
+                    <li>Exclusive member events</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="gold-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Gold Membership Benefits</h2>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Priority access to events</li>
+                    <li>Personalized business consulting</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Chamber of Commerce. All rights reserved.</p>
+    </footer>
+<script src="scripts/join.js"></script>
+</body>
+</html>
