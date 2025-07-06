@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas Eiji Morise Silva">
+    <meta name="description" content="A home page that display my information about myself, my certification and also takes the user to some of my projects">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Home Page</title>
+</head>
+<header>
+    <img src="images/user.png" alt="logo-photo" width="512" height="512">
+    <span>Home Page | Nicolas Eiji Morise Silva</span>
+    <button id="nav-button" class="hamburguer"></button>
+</header>
+<nav id="nav-bar" class="navigation">
+    <ul>
+        <li class="current"><a href="#">Home</a></li>
+        <li><a href="">Chamber</a></li>
+        <li><a href="">Personal Project</a></li>
+    </ul>
+</nav>
+<body>
+    <div class="wrapper">
+        <h1 id="Home">Home</h1>
+        <div class="container-grid">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>My name is Nicolas, I'm a BYU Software Development Student. I live in Brazil with my wife Amanda and work as a medical Scribe for a US Company. I love remote work, hiking and spend my time playing some video games.</p>
+            </div>
+            <div class="container">
+                <h2>Student Photo</h2>
+                <img src="images/student-photo.jpg" alt="My Photo">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Web Certifications</h2>
+        <div class="certifications">
+            <button>All</button>
+            <button>CSE</button>
+            <button>WDD</button>
+            <div class="certifications-names">
+                <h4>CSE110</h4>
+                <h4>CSE111</h4>
+                <h4>CSE210</h4>
+                <h4>WDD130</h4>
+                <h4>WDD131</h4>
+                <h4>WDD231</h4>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="social-icons">
+        <a href="https://github.com/nicolasmorise"><img src="./images/github.svg" alt="github-logo"></a>
+        <a href="https://www.linkedin.com/in/nicolaseiji/"><img src="./images/linkedin.svg" alt="linkedin-logo"></a>
+    </div>
+    <p>&copy; 2025</p>
+    <p id="last-modified"></p>
+</footer>
+<script src="scripts/navigation.js"></script>
+<script src="scripts/footer.js"></script>
+</html>

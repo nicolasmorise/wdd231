@@ -1,0 +1,38 @@
+@media only screen and (min-width:38rem) {
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .hamburguer {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #ddd;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation a{
+        border: none;
+    }
+
+    .container-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .certifications-names {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* two columns on mobile */
+    }
+}
