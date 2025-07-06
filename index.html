@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/index.js" defer></script>
     <title>Home Page</title>
 </head>
 <header>
@@ -39,16 +40,11 @@
     <div class="container">
         <h2>Web Certifications</h2>
         <div class="certifications">
-            <button>All</button>
-            <button>CSE</button>
-            <button>WDD</button>
-            <div class="certifications-names">
-                <h4>CSE110</h4>
-                <h4>CSE111</h4>
-                <h4>CSE210</h4>
-                <h4>WDD130</h4>
-                <h4>WDD131</h4>
-                <h4>WDD231</h4>
+            <button id="all">All</button>
+            <button id="cse">CSE</button>
+            <button id="wdd">WDD</button>
+            <h4 id="credits"></h4>
+            <div class="certifications-names" id="certification-names">
             </div>
         </div>
     </div>
@@ -58,7 +54,7 @@
         <a href="https://github.com/nicolasmorise"><img src="./images/github.svg" alt="github-logo"></a>
         <a href="https://www.linkedin.com/in/nicolaseiji/"><img src="./images/linkedin.svg" alt="linkedin-logo"></a>
     </div>
-    <p>&copy; 2025</p>
+    <p id="copyright"></p>
     <p id="last-modified"></p>
 </footer>
 <script src="scripts/navigation.js"></script>
