@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Andre Tech Solutions",
+    "address": "Av. Dom Pedro II, 1234",
+    "phone": "(11) 99999-0001",
+    "website": "https://andresolutions.com.br",
+    "image": "https://sdmntprwestus2.oaiusercontent.com/files/00000000-1e60-61f8-abad-c97771ab0586/raw?se=2025-07-13T03%3A55%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=75f88c75-954f-5dd5-b554-171c914f19ca&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-12T23%3A44%3A30Z&ske=2025-07-13T23%3A44%3A30Z&sks=b&skv=2024-08-04&sig=DtY/kSkCtpTthnV9N5js2xL7ZamVjeGI8sj1Uf20XH8%3D",
+    "membership": 3,
+    "description": "Technology and software services."
+  },
+  {
+    "name": "Santo Andre Fitness",
+    "address": "Rua das Palmeiras, 55",
+    "phone": "(11) 98888-0002",
+    "website": "https://safitness.com",
+    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-9fe4-6230-85dc-42cd43b16859/raw?se=2025-07-13T03%3A57%3A59Z&sp=r&sv=2024-08-04&sr=b&scid=cd5c9897-ef87-57aa-9540-f5df42ded5f3&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-12T23%3A50%3A28Z&ske=2025-07-13T23%3A50%3A28Z&sks=b&skv=2024-08-04&sig=FIE2UcvLVoT9CRqXGKbh2DLP5aratR0Jbf5Jc3xHvq4%3D",
+    "membership": 1,
+    "description": "Local gym and wellness center."
+  },
+  {
+    "name": "Andre Bakery",
+    "address": "Av. Industrial, 800",
+    "phone": "(11) 97777-0003",
+    "website": "https://andrebakery.com.br",
+    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-0178-6230-b49a-7cdcdca31ce2/raw?se=2025-07-13T04%3A04%3A14Z&sp=r&sv=2024-08-04&sr=b&scid=6b9ac498-4fd2-512d-8977-f5327f5cb88c&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-12T23%3A50%3A30Z&ske=2025-07-13T23%3A50%3A30Z&sks=b&skv=2024-08-04&sig=fAoc6iDSNmUoXzAUE8LLIHn%2B/ujOBPfimWr9hWx6lk8%3D",
+    "membership": 2,
+    "description": "Fresh bakery and confectionery."
+  },
+  {
+    "name": "Fire Motors",
+    "address": "Rua Carijos, 101",
+    "phone": "(11) 96666-0004",
+    "website": "https://firemotors.com",
+    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-b814-6230-ad65-8530399a496c/raw?se=2025-07-13T04%3A05%3A39Z&sp=r&sv=2024-08-04&sr=b&scid=bfda0a4f-97ba-53a5-a808-60b312555a87&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-12T23%3A51%3A51Z&ske=2025-07-13T23%3A51%3A51Z&sks=b&skv=2024-08-04&sig=iefbDV5UuqTtRXxLKL4MgtKW2kSKBpXyfZTCnAdPb5s%3D",
+    "membership": 3,
+    "description": "Car dealership with premium vehicles."
+  },
+  {
+    "name": "Books & More",
+    "address": "Av. Portugal, 345",
+    "phone": "(11) 95555-0005",
+    "website": "https://booksandmore.com",
+    "image": "images/books.png",
+    "membership": 1,
+    "description": "Bookstore and stationery shop."
+  },
+  {
+    "name": "Andre Design Studio",
+    "address": "Rua das Flores, 67",
+    "phone": "(11) 94444-0006",
+    "website": "https://andredesigns.com",
+    "image": "https://sdmntprwestus.oaiusercontent.com/files/00000000-b838-6230-a2dd-c6f787c294db/raw?se=2025-07-13T04%3A06%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=75273eef-e3be-5382-b46f-1da0ed292d4b&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-13T03%3A03%3A25Z&ske=2025-07-14T03%3A03%3A25Z&sks=b&skv=2024-08-04&sig=36LMcymPOteqFeutuQBBaYmS8QtocDopYjnQaVpWLzk%3D",
+    "membership": 2,
+    "description": "Branding and graphic design services."
+  },
+  {
+    "name": "Smile Dental",
+    "address": "Av. dos Estados, 222",
+    "phone": "(11) 93333-0007",
+    "website": "https://andredental.com",
+    "image": "https://sdmntprwestus2.oaiusercontent.com/files/00000000-2fc0-61f8-9a1d-3262b6dacf52/raw?se=2025-07-13T04%3A07%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=a3427dc5-7a80-5f24-874f-79d33860eca1&skoid=61180a4f-34a9-42b7-b76d-9ca47d89946d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-12T23%3A51%3A53Z&ske=2025-07-13T23%3A51%3A53Z&sks=b&skv=2024-08-04&sig=CGx3tPlZNRqZ/SLU19peLw%2BO2uP36MrfK9opdMCZpvU%3D",
+    "membership": 3,
+    "description": "Dental clinic for the entire family."
+  }
+]

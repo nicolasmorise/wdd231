@@ -1,0 +1,150 @@
+/*--------- Style Guidelines --------
+
+First Color: #2B688C 
+Secondary Color: #219656
+Background Footer: #8EA3AE 
+Font Color: #347297
+
+Font: Merriweather */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #8EA3AE;
+    color: #347297;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 160px;
+    margin-bottom: 0.5rem;
+}
+
+/* Nav */
+nav {
+    width: 100%;
+    position: relative;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #2B688C;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+#primary-nav {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: #8EA3AE;
+    padding: 1rem 0;
+}
+
+#primary-nav li {
+    margin: 0.5rem 0;
+}
+
+#primary-nav a {
+    color: #2B688C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Show menu when active */
+#primary-nav.open {
+    display: flex;
+}
+
+/* View Toggle Buttons */
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+#grid-view, #list-view {
+    padding: 0.5rem 1rem;
+    background-color: #219656;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Member Card Container */
+#members-container.grid-view {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#members-container.list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#members-container.list-view img{
+    display: none;
+}
+
+/* Card Style */
+.member-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.member-card img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #8EA3AE;
+    color: #2B688C;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer div {
+    margin: 1rem 0;
+}
+
+footer .social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}

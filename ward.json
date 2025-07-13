@@ -1,0 +1,28 @@
+{
+    "family-name": "Johnson's",
+    "date-moved": "06/27/2025",
+    "number-records": "5",
+    "visit-bishopric": false,
+    "family-data" : [{
+        "name":"Adams Johnson",
+        "gender":"Male",
+        "birthdate":"09/20/1985"
+    },
+    {
+        "name":"Judith Johnson",
+        "gender":"Female",
+        "birthdate":"01/24/1989"
+    },{
+        "name":"Alex Johnson",
+        "gender":"Male",
+        "birthdate":"09/15/2007"
+    },{
+        "name":"Maria Johnson",
+        "gender":"Female",
+        "birthdate":"03/02/2010"
+    },{
+        "name":"Elijah Johnson",
+        "gender":"Male",
+        "birthdate":"10/23/2014"
+    }]
+}
