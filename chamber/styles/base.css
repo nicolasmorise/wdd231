@@ -136,6 +136,7 @@ nav {
     background-color: rgb(197, 197, 197);
 }
 
+
 /* Show menu when active */
 #primary-nav.open {
     display: flex;
@@ -192,6 +193,118 @@ nav {
     display: block;
     margin-bottom: 1rem;
 }
+
+/* Spotlight Cards */
+#chamber-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.spotlight {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.spotlight:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.15);
+}
+
+.spotlight img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.spotlight h3 {
+    color: #000000;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight p {
+    margin: 0.3rem 0;
+}
+
+.spotlight a {
+    display: inline-block;
+    color: #217196;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.spotlight a:hover {
+    text-decoration: underline;
+}
+
+/* Container Section */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    font-family: 'Merriweather', serif;
+    color: #347297;
+}
+
+/* Headings inside container */
+.container h2 {
+    font-size: 2rem;
+    color: #2B688C;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Info Cards */
+.info {
+    background-color: #f4f7f9;
+    border-left: 5px solid #2B688C;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.info:hover {
+    transform: scale(1.01);
+}
+
+/* Info Paragraphs */
+.info p {
+    margin: 0.5rem 0;
+    background-color: #e6eef2;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #2b2b2b;
+}
+
+/* Weather icon */
+#wheather-icon {
+    display: block;
+    margin: 1rem auto;
+    max-width: 80px;
+}
+
+/* Weather forecast headings inside .info */
+.info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #219656;
+    font-weight: 600;
+    text-align: center;
+}
+
 
 /* Footer */
 footer {

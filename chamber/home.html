@@ -13,6 +13,7 @@
     <title>Chamber of Santo Andre City - Home Page</title>
     <script src="scripts/index.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/home.js" defer></script>
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
             <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
             <ul id="primary-nav">
                 <li class="current"><a href="#">Home</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
@@ -40,20 +41,22 @@
             </div>
             <div class="info">
                 <h2>Current Wheather</h2>
-                <p></p>
-                <p id=""></p> <!-- Display From the API -->
+                <img src="" id="wheather-icon" alt="weathericon">
+                <p id="temperature"></p>
+                <p id="highs"></p>
+                <p id="lows"></p>
+                <p id="humidity"></p> 
             </div>
             <div class="info">
                 <h2>Wheather Forecast</h2>
-                <figure>
-                    <img id="weather-icon" src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <p id=""></p> <!-- Display From the API -->
+                <p id="today-wheather"></p> 
+                <p id="tommorrow-wheather"></p>
+                <p id="day3"></p>
             </div>
-        </div>
-        <div class="chamber-list">
-            <div class="chamber-card"></div>
+
+        <h2 style="text-align:center; color:#2B688C; font-family:'Merriweather', serif; margin-top: 2rem;">Spotlights</h2>
+
+        <div class="chamber-list" id="chamber-list">    
         </div>
     </main>
         <footer>
