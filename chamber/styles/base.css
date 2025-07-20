@@ -238,7 +238,7 @@ nav {
     display: inline-block;
     color: #217196;
     text-decoration: none;
-    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .spotlight a:hover {
