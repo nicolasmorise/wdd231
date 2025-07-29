@@ -1,6 +1,27 @@
 /* Larger screens only */
 @media screen and (min-width: 768px) {
 
+  main h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  #results {
+    padding: 2.5rem 4rem;
+    font-size: 1.25rem;
+    max-width: 600px;
+  }
+
+dialog {
+  font-size: 1.15rem;
+}
+dialog h2 {
+  font-size: 2rem;
+}
+dialog p {
+  font-size: 1.2rem;
+}
+
     header {
         flex-direction: row;
         justify-content: space-between;
@@ -53,4 +74,22 @@
     footer div {
         margin: 0;
     }
+
+     
+    .membership-section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+
+    .membership-form, .membership-levels {
+        flex: 1;
+        margin: 0 1rem;
+    }
+
+    .membership-levels {
+        max-width: 400px;
+    }
+
 }

@@ -305,6 +305,165 @@ nav {
     text-align: center;
 }
 
+/* Join Page */
+
+.membership-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.membership-form,
+.membership-levels {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Merriweather', serif;
+  color: #2B688C;
+}
+
+.membership-form h2,
+.membership-levels h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.membership-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.membership-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.level-card {
+  background-color: #ccc;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #000;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 5px; /* Adjust this as needed for consistent height */
+}
+
+.level-card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #2B688C;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.level-card button:hover {
+  background-color: #66677a;
+}
+
+/* Modal */
+
+dialog {
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: .25rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 3rem #777;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  font-family: 'Merriweather', serif;
+  color: #2B688C;
+  text-align: left;
+  margin: auto ;
+}
+
+dialog h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2B688C;
+  text-align: center;
+}
+
+dialog p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+dialog button#closeDialog {
+  background: #2B688C;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+dialog button#closeDialog:hover {
+  background: #727a9e;
+}
+
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+#results {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #e6eef2;
+  border-left: 5px solid #2B688C;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
+  color: #2B688C;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeInUp 0.8s ease-out both;
+}
+
 
 /* Footer */
 footer {

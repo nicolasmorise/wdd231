@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Directory Page">
+    <meta name="author" content="Nicolas Eiji Morise Silva">
+    <meta name="description" content="This is the directory list where you have all the list of commerce in the Santo Andre city chamber. There you can see their website, number, logo and etc.">
+    <link rel="icon" href="images/icon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Santo Andre Chamber">
+    <meta property="og:description" content="This is the chamber for Santo Andre city, to help people share more about the business from this city.">
+    <meta property="og:image" content="https://jessup.edu/wp-content/uploads/2023/12/Programming-in-Computer-Science.jpg">
+    <meta property="og:url" content="https://nicolasmorise.github.io/wdd231/chamber/join.html">
+    <script type="module" src="scripts/join.js" defer></script>
+    <title>Join Page</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo-chamber.png" alt="Chamber Logo">
+        <nav>
+            <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+            <ul id="primary-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="membership-section">
+            <form method="GET" action="thanks.html" class="membership-form">
+                <h2>Membership Application Form</h2>
+                <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+                <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+                <label>Organizational Title <input type="text" name="organizationalTitle" required autocomplete="organization-title" title="Organizational title (at least 7 letters, spaces, or hyphens)" pattern="^[A-Za-z -]{7,}$"></label>
+                <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
+                <label>Email <input type="email" name="email" required placeholder="myemail@gmail.com"  title="Your Email" autocomplete="email"></label>
+                <label for="Organization description">Organization description:</label>
+                <textarea id="org_description" name="org_description" rows="7" cols="60" placeholder="Enter your description here..."></textarea>
+                
+
+                <h3>Membership Level</h3>
+                <label><input type="radio" name="Membership-Level" value="Non-Profit Organization" checked> Non-Profit Organization</label>
+                <label><input type="radio" name="Membership-Level" value="Bronze Membership"> Bronze Membership</label>
+                <label><input type="radio" name="Membership-Level" value="Silver Membership"> Silver Membership</label>
+                <label><input type="radio" name="Membership-Level" value="Gold Membership"> Gold Membership</label>
+
+                <input type="submit" value="submit">
+            </form>
+        
+
+            <div class="membership-levels fade-in-up">
+                <h2>Membership Levels</h2>
+                <div class="level-card">Non-Profit Membership Level <button>Learn More</button></div>
+                <div class="level-card">Bronze Membership Level <button>Learn More</button></div>
+                <div class="level-card">Silver Membership Level <button>Learn More</button></div>
+                <div class="level-card">Gold Membership Level <button>Learn More</button></div>
+            </div>
+            <dialog id="Membership-details"></dialog>
+        </section>
+    <footer>
+        <div>
+            <p><strong>Andre Chamber of Commerce </strong> </p>
+            <p>Rua Carijos 220 <br> Santo Andre, SP</p>
+            <p>contact@stchamber.org</p>
+            <p>(11) 1112-1111</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="images/twitter-x.svg" alt="x"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Nicolas Eiji Morise Silva</p>
+            <p id="copyright"></p>
+            <p id="last-modified"></p>
+        </div>
+    </footer>
+</body>
+</html>

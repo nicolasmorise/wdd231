@@ -1,0 +1,18 @@
+[
+  {
+    "membership": "Non-Profit",
+    "description": "Our NP Membership is designed to support non-profit organizations that are dedicated to serving the community. This membership is completely free and offers access to networking events, community forums, and promotional opportunities to help amplify your mission. NP Members are recognized for their contributions to the social fabric of our city."
+  },
+  {
+    "membership": "Bronze Membership",
+    "description": "The Bronze Membership is perfect for small businesses, solo entrepreneurs, or those just getting started. It includes access to monthly networking events, a business listing on the Chamber website, and inclusion in our member directory. This is a great way to build visibility and connect with other local business owners."
+  },
+  {
+    "membership": "Silver Membership",
+    "description": "The Silver Membership is designed for businesses looking to grow and increase their reach. In addition to all Bronze benefits, Silver members receive enhanced directory listings, promotional opportunities through Chamber newsletters and social media, and discounts on event sponsorships. This tier is ideal for those looking to expand their impact in the community."
+  },
+  {
+    "membership": "Gold Membership",
+    "description": "Our Gold Membership is the premier level for businesses that want to lead and invest in the community. Gold members enjoy all Silver benefits plus priority sponsorship opportunities, exclusive invitations to VIP events, premium placement in Chamber publications, and a featured spotlight on the Chamber homepage. This level demonstrates a strong commitment to civic and economic leadership."
+  }
+]

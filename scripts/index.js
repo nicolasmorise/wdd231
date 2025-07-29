@@ -89,20 +89,23 @@ const wdd = document.getElementById('wdd');
 
 function displayCourses(courseArray) {
     certification_names.innerHTML = '';
-
     credits.innerHTML = '';
 
-    // Calculate total credits
     const totalCredits = courseArray.reduce((sum, course) => sum + course.credits, 0);
     credits.textContent = `Total Credits from courses above: ${totalCredits}`;
 
     courseArray.forEach(course => {
         const bgColor = course.completed ? 'background-color: #d4edda;' : 'background-color: #f8d7da;';
-        const courseHTML = `
-        <div style="padding: 10px; margin-bottom: 10px; border-radius: 6px; ${bgColor}"> <h4>${course.subject} ${course.number}</h4> </div>`
-        certification_names.innerHTML += courseHTML;
+        const courseDiv = document.createElement('div');
+        courseDiv.style = `padding: 10px; margin-bottom: 10px; border-radius: 6px; ${bgColor}`;
+        courseDiv.innerHTML = `<h4>${course.subject} ${course.number}</h4>`;
+
+        courseDiv.addEventListener('click', () => displayCoursesDetails(course));
+
+        certification_names.appendChild(courseDiv);
     });
 }
+
 
 all.addEventListener('click', () => displayCourses(courses));
 
@@ -116,3 +119,25 @@ wdd.addEventListener('click', () => {
     displayCourses(wddCourses);
 });
 
+// Modal Control
+
+const modal = document.getElementById("course-details")
+
+function displayCoursesDetails(course) {
+    modal.innerHTML = '';
+    modal.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+    modal.showModal();
+    const closeModal = document.getElementById("closeModal")
+
+    closeModal.addEventListener("click", () => {
+        modal.close();
+    });
+}
