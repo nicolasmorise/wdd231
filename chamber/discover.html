@@ -6,17 +6,17 @@
     <link rel="icon" href="images/icon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-    <meta name="title" content="Home Page">
+    <link rel="stylesheet" href="styles/medium.css">
+    <meta name="title" content="Discover">
     <meta name="author" content="Nicolas Eiji Morise Silva">
     <meta name="description" content="This is the home page from the Santo André Chamber.">
     <meta property="og:title" content="Santo Andre Chamber">
     <meta property="og:description" content="This is the chamber for Santo Andre city, to help people share more about the business from this city.">
     <meta property="og:image" content="https://jessup.edu/wp-content/uploads/2023/12/Programming-in-Computer-Science.jpg">
     <meta property="og:url" content="https://nicolasmorise.github.io/wdd231/chamber/directory/html">
-    <title>Chamber of Santo Andre City - Home Page</title>
+    <title>Chamber of Santo Andre City - Discover</title>
     <script src="scripts/index.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,43 +24,17 @@
         <nav>
             <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
             <ul id="primary-nav">
-                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li class="current"><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero-image">
-            <img src="images/hero-image.webp" alt="Hero image of Santo Andre Chamber">
-            <a href="join.html" id="join-button">Join Us!</a>
-        </div>
-        <div class="container">
-            <h2>Home</h2>
-            <div class="info">
-                <h2>Events</h2>
-                <p>.</p>
-            </div>
-            <div class="info">
-                <h2>Current Wheather</h2>
-                <img id="wheather-icon" alt="weathericon">
-                <p id="temperature"></p>
-                <p id="highs"></p>
-                <p id="lows"></p>
-                <p id="humidity"></p> 
-            </div>
-            <div class="info">
-                <h2>Wheather Forecast</h2>
-                <p id="today-wheather"></p> 
-                <p id="tommorrow-wheather"></p>
-                <p id="day3"></p>
-            </div>
-        </div> <!-- close .container -->
+        <aside id="visitor-message"></aside>
 
-        <h2 style="text-align:center; color:#2B688C; font-family:'Merriweather', serif; margin-top: 2rem;">Spotlights</h2>
-        <div class="chamber-list" id="chamber-list">    
-        </div>
+        <section class="discover-grid">
     </main>
         <footer>
         <div>

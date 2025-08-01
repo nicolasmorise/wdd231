@@ -464,6 +464,52 @@ dialog button {
   animation: fadeInUp 0.8s ease-out both;
 }
 
+/* Discover */
+
+.discover-grid {
+  display: grid;
+  grid-template-areas: 
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.discover-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.discover-card figure img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+@media (max-width: 640px) {
+  .discover-card figure img:hover {
+    transform: none;
+    filter: none;
+  }
+}
+
+#visitor-message {
+  background: #f9f9f9;
+  border-left: 5px solid #2B688C;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
 
 /* Footer */
 footer {

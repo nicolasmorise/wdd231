@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Parque Central",
+    "address": "Rua José Bonifácio, s/n - Centro, Santo André - SP",
+    "description": "A large and peaceful urban park with lakes, jogging paths, native vegetation, and areas for picnics and leisure.",
+    "image": "images/parque-central.svg"
+  },
+  {
+    "name": "Sabina Escola Parque do Conhecimento",
+    "address": "Rua Juquiá, s/n - Vila Eldízia, Santo André - SP",
+    "description": "An interactive science and technology center featuring dinosaur replicas, aquariums, and a planetarium.",
+    "image": "images/sabina.svg"
+  },
+  {
+    "name": "Planetário Johannes Kepler",
+    "address": "Rua Juquiá, s/n - Vila Eldízia, Santo André - SP",
+    "description": "One of Brazil's most modern planetariums, offering immersive astronomy shows for all ages.",
+    "image": "images/planetario.svg"
+  },
+  {
+    "name": "Parque do Pedroso",
+    "address": "Estrada do Pedroso, 3000 - Parque Miami, Santo André - SP",
+    "description": "A large natural reserve with hiking trails, waterfalls, and picnic areas—ideal for eco-tourism and family outings.",
+    "image": "images/parque-pedroso.svg"
+  },
+  {
+    "name": "Catedral do Carmo",
+    "address": "Praça do Carmo, 36 - Centro, Santo André - SP",
+    "description": "A beautiful Catholic cathedral with historic architecture and stained-glass windows, located in the city center.",
+    "image": "images/praça-carmo.svg"
+  },
+  {
+    "name": "Museu de Santo André Dr. Octaviano Armando Gaiarsa",
+    "address": "Rua Senador Fláquer, 470 - Centro, Santo André - SP",
+    "description": "Local history museum housed in a preserved colonial-style building, showcasing the city’s development.",
+    "image": "images/museo.svg"
+  },
+  {
+    "name": "Shopping ABC",
+    "address": "Av. Pereira Barreto, 42 - Vila Gilda, Santo André - SP",
+    "description": "A modern shopping mall with fashion stores, food court, cinema, and entertainment for all ages.",
+    "image": "images/abc.svg"
+  },
+  {
+    "name": "Parque Celso Daniel",
+    "address": "Av. Dom Pedro II, 940 - Jardim, Santo André - SP",
+    "description": "A well-maintained park with sports courts, playgrounds, bike paths, and green space close to the city center.",
+    "image": "images/parque-daniel.svg"
+  }
+]
