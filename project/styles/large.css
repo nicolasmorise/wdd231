@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+  .navbar li {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-right: 3rem;
+  }
+
+  .logo img {
+    max-width: 120px;
+    margin-left: 70px;
+  }
+
+  .hero-image {
+    height: 600px;
+  }
+
+  /* Product grid for desktop */
+  #top-products {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .product-card img {
+    height: 180px;
+  }
+
+    .navbar {
+    flex-direction: row; /* horizontal layout */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #menu-toggle {
+    display: none; /* hide hamburger on desktop */
+  }
+
+  #primary-nav {
+    display: flex !important; /* always visible on desktop */
+    flex-direction: row;
+    background: none;
+    padding: 0;
+  }
+
+  #primary-nav li {
+    margin: 0 1rem;
+  }
+
+  /* About section: two columns */
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-content: center;
+    width: 80%;
+  }
+
+  /* Footer layout for desktop */
+  footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  footer div {
+    flex: 1 1 200px;
+  }
+}

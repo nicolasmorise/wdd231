@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Rope Soap",
+    "image": "images/products/sabonete-corda.jpg",
+    "type": "soap",
+    "description": "A traditional rope soap, easy to hang and dry, infused with natural oils for soft skin."
+  },
+  {
+    "name": "Flower Soap",
+    "image": "images/products/flower-soap.jpg",
+    "type": "soap",
+    "description": "Beautifully shaped like a flower, this soap adds a touch of elegance to your bath routine."
+  },
+  {
+    "name": "Essentials Spray",
+    "image": "images/products/spray.jpg",
+    "type": "spray",
+    "description": "A refreshing essentials spray that revitalizes your space with a clean, natural aroma."
+  },
+  {
+    "name": "Essentials Aromatics",
+    "image": "images/products/essentials.jpg",
+    "type": "aromatics",
+    "description": "High-quality aromatic essentials to create a relaxing atmosphere in any room."
+  },
+  {
+    "name": "Mini Soaps",
+    "image": "images/products/mini-soap.jpg",
+    "type": "soap",
+    "description": "Small and practical, these mini soaps are perfect for travel or guest bathrooms."
+  }
+]

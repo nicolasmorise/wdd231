@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Art Psi Studio">
+  <meta name="author" content="Nicolas Eiji Morise Silva">
+  <meta name="description" content="This is the home page of the Art Psi Studio, offering handmade soaps and essential products.">
+  <meta property="og:title" content="Art Psi Studio">
+  <meta property="og:description" content="This is the Art Psi Studio, soaps, essentials, etc.">
+  <meta property="og:image" content="images/artepsi-logo.png">
+  <meta property="og:url" content="https://nicolasmorise.github.io/wdd231/project/index.html">
+  <link rel="icon" href="images/icon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <title>Art Psi Studio</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href=""><img src="images/logo.png" alt="logo-image"></a></div>
+      <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+      <ul id="primary-nav">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><a href="orders.html">Orders</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image">
+        <img src="images/soap-hero-image.jpg" alt="soap-hero-Image">
+      </div>
+    </section>
+
+    <section class="cta">
+      <button class="order-button">Make an Order</button>
+    </section>
+    <h1 id="top-products-h2">Top products</h1> 
+    <section class="top-products" id="top-products">
+      <div class="products-list"></div>
+    </section>
+
+    <section class="about">
+        <div>
+            <h2>What's Art Psi Studio?</h2>
+            <p>
+            Arte Psi Studio is a space dedicated to creativity, emotional well-being, and personal growth.  
+            We combine art and psychology to create unique soaps, therapeutic essentials, etc.  
+            </p>
+        </div>
+        <div class="about-info">
+          <img src="images/about-photo.jpg" alt="about-photo">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+        <div>
+            <p><strong>Arte Psi Studio</strong> </p>
+            <p>Rua Caravelas 230 <br> Santo Andre, SP</p>
+            <p>contact@artepsistudio.org</p>
+            <p>(11) 1112-1111</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="images/twitter-x.svg" alt="x"></a>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Nicolas Eiji Morise Silva</p>
+            <p id="copyright"></p>
+            <p id="last-modified"></p>
+        </div>
+  </footer>
+<script src="scripts/index.js"></script>
+<script src="scripts/header-footer.js"></script>
+</body>
+</html>
